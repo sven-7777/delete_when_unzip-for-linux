@@ -2,6 +2,7 @@ import subprocess
 import re
 import os
 import sys
+import shutil
 import time
 from robust_split import robust_basename_split
 
@@ -89,9 +90,15 @@ def main_unzip(file_path,chunk_size=0,password=None):
     file_list = ['HEAD']+file_list
     # 使用示例
     # 请替换下面的 'name.exe -option1 xxx' 为你想要执行的命令
-    command_to_run = ['./unrar.exe', 'x','-o+', file_path,os.path.join(dir_path,file_folder)]
+        
+    if shutil.which('unrar') is None:
+        raise RuntimeError(
+            "'unrar' was not found on your system PATH.\n"
+            "Install it first, e.g.:\n"
+        )
+    command_to_run = ['unrar', 'x','-o+', file_path,os.path.join(dir_path,file_folder)]
     if password != None:
-        command_to_run = ['./unrar.exe', 'x','-p'+password,'-o+', file_path,os.path.join(dir_path,file_folder)]
+        command_to_run = ['unrar', 'x','-p'+password,'-o+', file_path,os.path.join(dir_path,file_folder)]
     run_and_monitor_command(command_to_run)
 
 
