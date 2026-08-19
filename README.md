@@ -1,4 +1,4 @@
-# Delete When Unzip — Linux Edition
+# Delete When Unzip — For Linux 
 
 Stream-extract large ZIP/RAR archives while deleting already-processed parts as you go, so you don't need double the disk space to unpack a huge archive. A 100 GB archive extracts with roughly 100 GB + a bit of headroom, instead of 200 GB.
 
@@ -28,7 +28,7 @@ cd delete_when_unzip-for-linux
 sudo ./install.sh
 ```
 
-Supports Debian/Ubuntu (`apt`) and Fedora (`dnf`). Other distros: the script installs the Python packages via pip and prints what to install manually via your package manager (`tkinter`, `libarchive`, `unrar`). Installs system-wide — no virtual environment.
+Supports Debian/Ubuntu (`apt`) and Fedora (`dnf`). Other distros: the script installs the Python packages via pip and prints what to install manually via your package manager (`tkinter`, `libarchive`, `unrar`).
 
 **Uninstall:**
 ```bash
