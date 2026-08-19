@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Delete When Unzip
+GenericName=Archive Extractor
+Comment=Extract large ZIP/RAR archives while deleting processed chunks, saving disk space
+Exec=delete-when-unzip
+Icon=delete-when-unzip
+Terminal=false
+Categories=Utility;Archiving;
