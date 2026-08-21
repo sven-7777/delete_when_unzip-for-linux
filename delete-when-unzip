@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Launcher for delete-when-unzip (GUI)
+exec python3 /usr/share/delete-when-unzip/app.py "$@"
