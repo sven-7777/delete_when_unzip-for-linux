@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 # Launcher for delete-when-unzip (CLI)
+export PYTHONPATH="/usr/share/delete-when-unzip/vendor:$PYTHONPATH"
 exec python3 /usr/share/delete-when-unzip/delete_when_unzip_cli.py "$@"

@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 # Launcher for delete-when-unzip (GUI)
+export PYTHONPATH="/usr/share/delete-when-unzip/vendor:$PYTHONPATH"
 exec python3 /usr/share/delete-when-unzip/app.py "$@"
