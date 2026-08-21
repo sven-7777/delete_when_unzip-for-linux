@@ -12,6 +12,6 @@ rm -f /usr/local/bin/delete-when-unzip
 rm -f /usr/local/bin/delete-when-unzip-cli
 rm -f /usr/share/applications/delete-when-unzip.desktop
 rm -f /usr/share/icons/hicolor/32x32/apps/delete-when-unzip.png
-rm -f ~/delete_when_unzip-for-linux
+rm -rf ~/delete_when_unzip-for-linux
 
 echo "Uninstalled."
