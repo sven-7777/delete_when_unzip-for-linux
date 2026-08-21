@@ -32,6 +32,7 @@ Supports Debian/Ubuntu (`apt`) and Fedora (`dnf`). Other distros: the script ins
 
 **Uninstall:**
 ```bash
+chmod +x ./uninstall.sh
 sudo ./uninstall.sh
 ```
 
