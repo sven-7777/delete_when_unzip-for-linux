@@ -12,6 +12,7 @@ Linux fork of [auto-Dog/delete_when_unzip](https://github.com/auto-Dog/delete_wh
 git clone https://github.com/sven-7777/delete_when_unzip-for-linux.git
 cd delete_when_unzip-for-linux
 makepkg -si
+rm -rf ~/delete_when_unzip-for-linux
 ```
 
 ## Uninstall
@@ -36,6 +37,7 @@ Supports Debian/Ubuntu (`apt`) and Fedora (`dnf`). Other distros: the script ins
 cd delete_when_unzip-for-linux
 chmod +x ./uninstall.sh
 sudo ./uninstall.sh
+rm -rf ~/delete_when_unzip-for-linux
 ```
 
 ## Usage
