@@ -32,6 +32,7 @@ Supports Debian/Ubuntu (`apt`) and Fedora (`dnf`). Other distros: the script ins
 
 **Uninstall:**
 ```bash
+cd delete_when_unzip-for-linux
 chmod +x ./uninstall.sh
 sudo ./uninstall.sh
 ```
