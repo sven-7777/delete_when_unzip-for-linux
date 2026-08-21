@@ -25,6 +25,7 @@ sudo pacman -Rns delete-when-unzip-git
 ```bash
 git clone https://github.com/sven-7777/delete_when_unzip-for-linux.git
 cd delete_when_unzip-for-linux
+chmod +x ./install.sh
 sudo ./install.sh
 ```
 
