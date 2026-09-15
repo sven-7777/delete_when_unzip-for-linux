@@ -1,6 +1,6 @@
 # Delete When Unzip — For Linux 
 
-Stream-extract large ZIP/RAR archives while deleting already-processed parts as you go, so you don't need double the disk space to unpack a huge archive. A 100 GB archive extracts with roughly 100 GB + a bit of headroom, instead of 200 GB.
+Stream-extract large ZIP/RAR archives while deleting already-processed parts as you go, so you don't need double the disk space to unpack a huge archive. A 100 GB archive extracts as 100 GB, instead of 200 GB.
 
 Linux fork of [auto-Dog/delete_when_unzip](https://github.com/auto-Dog/delete_when_unzip).
 
